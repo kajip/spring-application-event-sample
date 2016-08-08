@@ -1,0 +1,9 @@
+dependencies {
+    compile "org.springframework:spring-core:${springFrameworkVersion}"
+    compile "org.springframework:spring-beans:${springFrameworkVersion}"
+    compile "org.springframework:spring-context:${springFrameworkVersion}"
+    compile "org.springframework:spring-jdbc:${springFrameworkVersion}"
+
+    testCompile "org.spockframework:spock-spring:${spockVersion}"
+    testCompile "org.springframework:spring-test:${springFrameworkVersion}"
+}
